@@ -1,0 +1,51 @@
+@media(max-width:952px){
+    .row-1{
+        flex-direction: column;
+        text-align: center;
+    }
+        .first{
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+            .first section{
+                margin: 0 auto;
+                justify-content: center;
+            }
+                section p{
+                    font-size: 15px;
+                }
+        .second{
+            width: 100%;
+        }
+            .primero, .segundo, .tercero{
+                align-self: baseline;
+            }
+            .revew-container{
+                align-self: center;
+                width: 50%;
+                flex-direction: column;
+            }
+                .stars-revew{
+                    margin: 0px 30px 10px 10px;
+                }
+    .row-2{
+        flex-direction: column;
+    }
+        .targets{
+            width: 50%;
+            margin: 0 auto;
+        }
+            .targets{
+                margin-bottom: 10px;
+            }
+}
+
+@media(max-width:572px){
+    .revew-container{
+        width: 80%;
+    }
+    .targets{
+        width: 80%;
+    }
+}
